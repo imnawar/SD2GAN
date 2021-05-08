@@ -15,7 +15,7 @@ This repo contains an example notebook with a TensorFlow implementation of SD2GA
 
 # Usage 
 open SD2GAN.ipynb then, 
-- To use the pretreinder model check on parameters and make sure the ```train``` otption is set to False
+- To use the pretrained model check on parameters and make sure the ```train``` otption is set to False
 ```
 params = {
     'dataset': "mnist", # 'mnist' , 'fashion'
