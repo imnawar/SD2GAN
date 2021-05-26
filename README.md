@@ -32,7 +32,19 @@ Starting with the Siamese network trainig, the training set of Siamese should be
 - Tensorflow 2.0+
 
 # Train SN with SD2GAN
-open SN_SD2GAN.ipynb and run the cells
+open SN_SD2GAN.ipynb and set the params then, run the cells
+the defult params are: 
+```
+params = {
+    'dataset': "mnist", # 'mnist' , 'fashion'
+    'z_dim' : 100, # latent dim 
+    'lr' : 0.0001, #lr of generator and first discrimnator 
+    'lr_disc2' : 0.00009, # lr of the second discrimnator 
+    'beta' : 0.5, 
+    'bs' : 32, # for GAN training
+    'epochs' : 30000 # for GAN trainig
+}
+```
 # Ues the pre-trained SN 
 open SD2GAN.ipynb then, 
 - To use the pretrained model check on parameters and make sure the ```train``` otption is set to False
