@@ -13,7 +13,7 @@ SD2GAN combined a diversity network, which consisted of a Siamese Network and an
 
 ![SD2GAN](https://user-images.githubusercontent.com/36853625/117652573-04e40900-b19c-11eb-9811-a70ab4c95087.png)
 
-The Siamese nwtwork used to measure the similarity in batch of data, we used the following architecture of the Siamese network:
+The Siamese network used to measure the similarity in batch of data, we used the following architecture of the Siamese network:
 
 ![SNN](https://user-images.githubusercontent.com/36853625/117653385-ff3af300-b19c-11eb-95f1-991fa8262f59.png)
 
@@ -32,7 +32,7 @@ Starting with the Siamese network trainig, the training set of Siamese should be
 - Tensorflow 2.0+
 
 # Train SN with SD2GAN
-
+open SN_SD2GAN.ipynb and run the cells
 # Ues the pre-trained SN 
 open SD2GAN.ipynb then, 
 - To use the pretrained model check on parameters and make sure the ```train``` otption is set to False
